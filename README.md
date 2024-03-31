@@ -27,6 +27,19 @@ Add or modify the "ConnectionStrings" section to configure your database connect
   }
 }
 
+```csharp
+// Seu código C# aqui
+public class MyClass
+{
+    public int MyProperty { get; set; }
+
+    public void MyMethod()
+    {
+        Console.WriteLine("Hello, world!");
+    }
+}
+```
+
 Replace "SalesWebMVCContext" with your preferred connection name and update the connection string with your database details.
 
 ### Step 3 : Create Database
