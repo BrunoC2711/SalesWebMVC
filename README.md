@@ -21,22 +21,11 @@ Make sure you have the following installed on your system:
 Open the appsettings.json file.
 Add or modify the "ConnectionStrings" section to configure your database connection. For example:
 
+```csharp
 {
   "ConnectionStrings": {
     "SalesWebMVCContext": "Server=localhost; Database=saleswebmvc; UserId=root; Password=saleswebmvcpass;"
   }
-}
-
-```csharp
-// Seu código C# aqui
-public class MyClass
-{
-    public int MyProperty { get; set; }
-
-    public void MyMethod()
-    {
-        Console.WriteLine("Hello, world!");
-    }
 }
 ```
 
@@ -45,13 +34,17 @@ Replace "SalesWebMVCContext" with your preferred connection name and update the 
 ### Step 3 : Create Database
 Run the following command to create the database and apply migrations:
 
+```bash
    dotnet ef database update
+```
 
 ### Step 4: Run the project
 In your terminal or command prompt, navigate to the project directory.
 Run the following command to start the application:
 
+```bash
    dotnet run
+```
 
 Conclusion
 You've now created a basic MVC project using ASP.NET Core and configured the connection string for your database. Continue building and customizing your application according to your requirements.
