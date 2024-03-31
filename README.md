@@ -43,9 +43,6 @@ Run the following command to start the application:
 Conclusion
 You've now created a basic MVC project using ASP.NET Core and configured the connection string for your database. Continue building and customizing your application according to your requirements.
 
-sql
-Copy code
-
 Feel free to customize the instructions further based on your specific project needs.
 
 
